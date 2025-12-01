@@ -1,0 +1,104 @@
+/* Body background with gradient */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container */
+.container {
+  width: 400px;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Heading */
+.container h1 {
+  color: #ff6b6b;
+  margin-bottom: 20px;
+  font-size: 28px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Input Box */
+input {
+  padding: 12px;
+  width: 65%;
+  border: 2px solid #764ba2;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+  border-color: #ff6b6b;
+  box-shadow: 0px 0px 8px rgba(255, 107, 107, 0.6);
+}
+
+/* Add Button */
+button {
+  padding: 12px 18px;
+  margin-left: 10px;
+  background: linear-gradient(135deg, #ff6b6b, #f06595);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #f06595, #ff6b6b);
+  transform: scale(1.05);
+}
+
+/* Todo List */
+.todo-list {
+  margin-top: 25px;
+  text-align: left;
+}
+
+/* Todo Item */
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #42e695, #3bb2b8);
+  color: white;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  font-size: 18px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+  transition: all 0.3s ease-in-out;
+}
+
+.todo-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.2);
+}
+
+/* Delete Button */
+.todo-item button {
+  background: #ff4757;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.todo-item button:hover {
+  background: #e84118;
+  transform: scale(1.1);
+}
